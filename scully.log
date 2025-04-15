@@ -3901,3 +3901,15 @@ Folder "./scully" doesn't seem to contain custom plugins
 
 
 
+Folder "./scully" doesn't seem to contain custom plugins
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npm run scully -- --scanRoutes"----------------------------------No configuration for route "/d/:cat/:slug" found. Skipping
+
+
+
+
+Folder "./scully" doesn't seem to contain custom plugins
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npm run scully -- --scanRoutes"----------------------------------No configuration for route "/d/:cat/:slug" found. Skipping
+
+
+
+

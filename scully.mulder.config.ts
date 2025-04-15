@@ -25,7 +25,7 @@ import 'prismjs/components/prism-bash.js';
 const defaultPostRenderers = ['seoHrefOptimise', baseHrefRewrite];
 
 setPluginConfig('md', { enableSyntaxHighlighting: true });
-setPluginConfig(baseHrefRewrite, { href: 'debconf25-academictrack' });
+setPluginConfig(baseHrefRewrite, { href: '/debconf25-academictrack/' });
 
 
 const tocOptions: TocConfig = {
