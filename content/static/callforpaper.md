@@ -1,12 +1,10 @@
 ---
 published: true
 title: CallforPaper
-subTitle: Call for paper
 slug: callforpaper
 backgroundImage: 'url(assets/img/PICT0024.JPG)'
 ---
 
-# Call for papers
 ## Topics of Interest
 
 We seek proposals aligned with Debian’s impact on science, including:
