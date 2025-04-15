@@ -1,0 +1,21 @@
+[
+
+    {
+        "path": "callforpaper",
+        "title": "Call for Papers",
+        "type": "static"
+    },
+    {
+      "path": "pc",
+      "title": "Program Committee",
+      "type": "static"
+  },
+
+    {
+      "path": "submission",
+      "title": "Submission",
+      "type": "static"
+  }
+
+
+]
