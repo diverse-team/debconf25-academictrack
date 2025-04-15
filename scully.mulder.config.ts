@@ -4,6 +4,8 @@ import { ScullyConfig, setPluginConfig } from '@scullyio/scully';
 import '@scullyio/scully-plugin-puppeteer';
 import '@k9n/scully-plugin-toc';
 
+import { baseHrefRewrite } from '@scullyio/scully-plugin-base-href-rewrite';
+
 import {
   TocConfig,
   TocPluginName,
@@ -20,7 +22,10 @@ import 'prismjs/components/prism-visual-basic.js';
 import 'prismjs/components/prism-yaml.js';
 import 'prismjs/components/prism-bash.js';
 
+const defaultPostRenderers = ['seoHrefOptimise', baseHrefRewrite];
+
 setPluginConfig('md', { enableSyntaxHighlighting: true });
+setPluginConfig(baseHrefRewrite, { href: 'debconf25-academictrack' });
 
 
 const tocOptions: TocConfig = {
@@ -38,6 +43,7 @@ setPluginConfig(TocPluginName, tocOptions);
 
 
 export const config: ScullyConfig = {
+    defaultPostRenderers,
     projectRoot: './src',
     puppeteerLaunchOptions: {executablePath: '/usr/bin/google-chrome'},
     projectName: 'mulder',

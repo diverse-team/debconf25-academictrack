@@ -11,8 +11,6 @@
     "scully:serve": "npx scully serve --",
     "scully:scan": "npx scully --scanRoutes",
     "scully:error": "npx scully --showGuessError"
-
-
   },
   "private": true,
   "dependencies": {
@@ -50,6 +48,7 @@
     "@angular/cli": "~14.2.1",
     "@angular/compiler-cli": "^14.0.0",
     "@k9n/scully-plugin-toc": "^5.0.0",
+    "@scullyio/scully-plugin-base-href-rewrite": "^2.1.41",
     "@types/d3-cloud": "^1.2.5",
     "@types/jasmine": "~4.0.0",
     "@types/lodash": "^4.14.184",
