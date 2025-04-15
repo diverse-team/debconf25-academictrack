@@ -1,0 +1,11 @@
+identifier: lf74n9k8dafer3pc
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: mulder
+homeFolder: /home/barais/git/debconf25-academictrack
+distFolder: dist/mulder
+outDir: /home/barais/git/debconf25-academictrack/dist/static
+handle404: ''
+allowErrorCollect: true
