@@ -34,8 +34,8 @@ Papers should clearly articulate scientific contributions and Debian community r
 
 ## Timeline
 
-- Final abstract submission deadline on debconf25.debconf.org: **May 19, 2025**
-- Abstract acceptance notifications: **May 26, 2025**
+- Final abstract submission deadline on debconf25.debconf.org: **May 25, 2025**
+- Abstract acceptance notifications: **June 2, 2025**
 - Final full paper submission deadline: **June 19, 2025**
 - Full paper acceptance notifications: **June 26, 2025**
 
